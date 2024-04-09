@@ -1,0 +1,72 @@
+
+.ugp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+  background: linear-gradient(135deg, #002ea8, #10cffc);
+  width: 60%;
+  color: #fff;
+  padding: 52px;
+  text-align: center;
+  border-radius: 12px;
+}
+.header h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.header p{
+
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 24px;
+}
+.faqSection {
+
+  margin: 30px auto;
+  text-align: left;
+}
+.faqSection h2{
+
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.faqSection p div{
+color: #014dc5;
+}
+.faqSection p{
+display: flex;
+margin-bottom: 10px;
+font-size: 12px;
+line-height: 1.4em;
+}
+
+.faqSection ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+}
+
+.faqSection li {
+  margin-bottom: 10px;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+.faqItem span:hover{
+    color: #0079e4;
+
+}
+.faqItem {
+    padding: 20px 10px 10px 20px;
+ 
+
+}
+.faqdatali{
+    background: #e3f7f7 !important;
+}

@@ -1,0 +1,31 @@
+.container {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgBox{
+    width: 195px;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: #cefdf3;
+  color: #035a474d;
+  border: none;
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
