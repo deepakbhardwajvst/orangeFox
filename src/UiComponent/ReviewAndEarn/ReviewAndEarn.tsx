@@ -10,8 +10,7 @@ const ReviewAndEarn: React.FC = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
             <img
-              src="/path/to/g2_icon.png"
-              alt="G2 Icon"
+src=""              alt="G2 Icon"
               style={{ width: "24px", height: "24px" }}
             />
           </button>
@@ -28,8 +27,7 @@ const ReviewAndEarn: React.FC = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
             <img
-              src="/path/to/capterra_icon.png"
-              alt="Capterra Icon"
+src=""              alt="Capterra Icon"
               style={{ width: "24px", height: "24px" }}
             />
           </button>
@@ -48,8 +46,7 @@ const ReviewAndEarn: React.FC = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
             <img
-              src="/path/to/blog_icon.png"
-              alt="Blog Icon"
+src=""              alt="Blog Icon"
               style={{ width: "24px", height: "24px" }}
             />
           </button>
@@ -69,8 +66,7 @@ const ReviewAndEarn: React.FC = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
             <img
-              src="/path/to/video_icon.png"
-              alt="Video Icon"
+src=""              alt="Video Icon"
               style={{ width: "24px", height: "24px" }}
             />
           </button>

@@ -47,7 +47,7 @@ const UnlockGrowthPlan: React.FC = () => {
         <h2>FAQs</h2>
         <p>
           Still have questions about Scalenut's Reward Program? Write to us at
-          wecare<div>@scalenut.com</div>
+          wecare<i>@scalenut.com</i>
         </p>
         <ul className={styles.faqdata}>
           {faqData.map((item, index) => (
