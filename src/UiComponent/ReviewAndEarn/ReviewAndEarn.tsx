@@ -14,6 +14,7 @@ const ReviewAndEarn: React.FC = () => {
               height={500}
               priority={true}
               src=""
+              style={{width:"24px",height:"24px"}}
               alt="G2 Icon"
             />
           </button>
@@ -34,6 +35,7 @@ const ReviewAndEarn: React.FC = () => {
               height={500}
               priority={true}
               src=""
+              style={{width:"24px",height:"24px"}}
               alt="Capterra Icon"
             />
           </button>
@@ -56,6 +58,7 @@ const ReviewAndEarn: React.FC = () => {
               height={500}
               priority={true}
               src=""
+              style={{width:"24px",height:"24px"}}
               alt="Blog Icon"
             />
           </button>
@@ -79,6 +82,7 @@ const ReviewAndEarn: React.FC = () => {
               height={500}
               priority={true}
               src=""
+              style={{width:"24px",height:"24px"}}
               alt="Video Icon"
             />
           </button>
