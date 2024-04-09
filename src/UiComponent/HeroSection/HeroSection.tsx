@@ -3,8 +3,8 @@ const HeroSection: React.FC = () => {
   return (
     <div className={styles.container}>
 
-      <div className={styles.imgBox}>
-      <img src="/scale.svg" alt="" className={styles.img} /></div>
+      {/* <div className={styles.imgBox}>
+      <img src="/scale.svg" alt="" className={styles.img} /></div> */}
       <h2 className={styles.title}>6 Months Growth Plan Giveaway</h2>
     
       <p className={styles.description}>

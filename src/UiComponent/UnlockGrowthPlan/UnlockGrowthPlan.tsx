@@ -32,7 +32,7 @@ const UnlockGrowthPlan: React.FC = () => {
       <div className={styles.faqSection}>
         <h2>FAQs</h2>
         <p>
-          Still have questions about Scalenut's Reward Program? Write to us at
+          Still have questions about Scalenuts Reward Program? Write to us at
           wecare<i>@scalenut.com</i>
         </p>
         <ul className={styles.faqdata}>
@@ -51,7 +51,7 @@ const UnlockGrowthPlan: React.FC = () => {
         </ul>
       </div>
     </div>
-  );
+  )
 };
 
 // FAQ data

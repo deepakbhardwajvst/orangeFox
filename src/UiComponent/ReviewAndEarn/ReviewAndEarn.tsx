@@ -97,7 +97,7 @@ const ReviewAndEarn: React.FC = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default ReviewAndEarn;
