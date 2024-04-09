@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const ReviewAndEarn: React.FC = () => {
   return (
@@ -9,9 +9,12 @@ const ReviewAndEarn: React.FC = () => {
       >
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
-            <img
-src=""              alt="G2 Icon"
-              style={{ width: "24px", height: "24px" }}
+            <Image
+              width={500}
+              height={500}
+              priority={true}
+              src=""
+              alt="G2 Icon"
             />
           </button>
           <div>
@@ -26,9 +29,12 @@ src=""              alt="G2 Icon"
       >
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
-            <img
-src=""              alt="Capterra Icon"
-              style={{ width: "24px", height: "24px" }}
+            <Image
+              width={500}
+              height={500}
+              priority={true}
+              src=""
+              alt="Capterra Icon"
             />
           </button>
           <div>
@@ -45,9 +51,12 @@ src=""              alt="Capterra Icon"
       >
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
-            <img
-src=""              alt="Blog Icon"
-              style={{ width: "24px", height: "24px" }}
+            <Image
+              width={500}
+              height={500}
+              priority={true}
+              src=""
+              alt="Blog Icon"
             />
           </button>
           <div>
@@ -65,9 +74,12 @@ src=""              alt="Blog Icon"
       >
         <div style={{ display: "flex", alignItems: "center" }}>
           <button style={{ marginRight: "0.5rem" }}>
-            <img
-src=""              alt="Video Icon"
-              style={{ width: "24px", height: "24px" }}
+            <Image
+              width={500}
+              height={500}
+              priority={true}
+              src=""
+              alt="Video Icon"
             />
           </button>
           <div>

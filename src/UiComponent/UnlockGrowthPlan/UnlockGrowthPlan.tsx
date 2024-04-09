@@ -25,21 +25,7 @@ const UnlockGrowthPlan: React.FC = () => {
   return (
     <div className={styles.ugp}>
       <div className={styles.header}>
-        <Box
-          component="form"
-          sx={{
-            "& > :not(style)": { m: 1, width: "25ch" },
-          }}
-          noValidate
-          autoComplete="off"
-        >
-          <TextField
-            id="outlined-required"
-            label="Outlined"
-            defaultValue={<div><p>jknhnedfb</p><p>klmdfnjklsdk</p></div>}
-            variant="outlined"
-          />
-        </Box>
+       
         <h1>Simple Way to Unlock Growth Plan worth $500</h1>
         <p>Boost your online presence for FREE</p>
       </div>
