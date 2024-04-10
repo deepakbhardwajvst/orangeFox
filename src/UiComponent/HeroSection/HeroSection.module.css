@@ -1,5 +1,4 @@
 .container {
-  background-color: #0072c6;
   color: #fff;
   padding: 2rem;
   text-align: center;
@@ -7,6 +6,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* This will cover the entire container */
+  background-position: center; /* Center the background image */
 }
 .imgBox {
   width: 195px;
