@@ -1,5 +1,7 @@
 .container {
-  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
   margin: 2rem 0;
 }
 
@@ -9,17 +11,33 @@
   gap: 2rem;
   margin-top: 2rem;
 }
-
+.headig{
+  font-size: 32px;
+  font-weight: 700;
+}
+.topbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /* height: 100px; */
+}
 .step {
-  background-color: #f5f5f5;
+  background-color: #f5faff;
   padding: 1rem;
   border-radius: 0.5rem;
   max-width: 300px;
 }
+.image{
+  width: 70px;
+}
+.step h3{
+ color: #014dc5;
+ font-size: 48px;
+}
 
 .stepIcon {
-  background-color: #0072c6;
-  color: #fff;
+  /* background-color: #0072c6; */
+  color: #014dc533;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -27,4 +45,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
+}
+.email{
+  color: #0079e4;
 }
