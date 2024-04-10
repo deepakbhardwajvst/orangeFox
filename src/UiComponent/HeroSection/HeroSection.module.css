@@ -1,6 +1,7 @@
 .container {
   color: #fff;
   padding: 2rem;
+  padding-bottom: 10rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,8 +9,9 @@
   align-items: center;
   background-image: url("/hero.jpg");
   background-repeat: no-repeat;
-  background-size: cover; /* This will cover the entire container */
-  background-position: center; /* Center the background image */
+  background-size: cover;
+  background-position: center; 
+  min-height:50vh ;
 }
 .imgBox {
   width: 195px;
