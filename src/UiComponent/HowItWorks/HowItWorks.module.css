@@ -1,7 +1,7 @@
 .container {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 2rem 0;
 }
 
@@ -11,11 +11,11 @@ align-items: center;
   gap: 2rem;
   margin-top: 2rem;
 }
-.headig{
+.headig {
   font-size: 32px;
   font-weight: 700;
 }
-.topbox{
+.topbox {
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -27,14 +27,22 @@ align-items: center;
   border-radius: 0.5rem;
   max-width: 300px;
 }
-.image{
+.image {
   width: 70px;
 }
-.step h3{
- color: #014dc5;
- font-size: 48px;
+.step h3 {
+  color: #014dc5;
+  font-size: 48px;
 }
-
+.step p {
+  color: #535d66;
+  font-size: 15px;
+  font-weight: 300;
+}
+.strong {
+  color: #000;
+  font-weight: 600;
+}
 .stepIcon {
   /* background-color: #0072c6; */
   color: #014dc533;
@@ -46,6 +54,6 @@ align-items: center;
   align-items: center;
   margin-bottom: 1rem;
 }
-.email{
+.email {
   color: #0079e4;
 }

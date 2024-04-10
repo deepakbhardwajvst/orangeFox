@@ -6,7 +6,8 @@ import HowItWorks from "@/UiComponent/HowItWorks/HowItWorks";
 export default function Home() {
   return (
     <>
-      <HeroSection /> <ReviewAndEarn />
+      <HeroSection />
+      <ReviewAndEarn />
       <HowItWorks />
       <UnlockGrowthPlan />
     </>

@@ -8,22 +8,20 @@
   justify-content: center;
   align-items: center;
 }
-.imgBox{
-    width: 195px;
-    margin-bottom: 24px;
+.imgBox {
+  width: 195px;
+  margin-bottom: 24px;
 }
 .title {
   font-size: 44px;
-font-weight: 600;
-    margin-bottom: 24px;
-
+  font-weight: 600;
+  margin-bottom: 24px;
 }
 
 .description {
   font-size: 16px;
 
   margin-bottom: 70px;
-
 }
 
 .button {
@@ -33,26 +31,23 @@ font-weight: 600;
   padding: 40px 30px 20px 30px;
   font-size: 1rem;
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .button:hover {
   background-color: #cefdf3;
   color: #0079e4;
-
 }
 .button h2 {
- font-size: 36px;
- line-height: 43px;
- font-weight: 600;
- margin-bottom: 16px;
-
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 .button p {
   font-size: 12px;
-
 }

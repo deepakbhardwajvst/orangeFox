@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import styles from "./UnlockGrowthPlan.module.css";
 const UnlockGrowthPlan: React.FC = () => {
@@ -17,7 +17,6 @@ const UnlockGrowthPlan: React.FC = () => {
   return (
     <div className={styles.ugp}>
       <div className={styles.header}>
-       
         <h1>Simple Way to Unlock Growth Plan worth $500</h1>
         <p>Boost your online presence for FREE</p>
       </div>
@@ -43,7 +42,7 @@ const UnlockGrowthPlan: React.FC = () => {
         </ul>
       </div>
     </div>
-  )
+  );
 };
 
 // FAQ data
