@@ -56,7 +56,7 @@ const HowItWorks: React.FC = () => {
           {stepsData.map((step, index) => (
             <div className={styles.step} key={index}>
               <div className={styles.topbox}>
-                <div className={styles.stepIcon}>{index + 1}</div>
+                <div className={styles.stepIcon}>{`0${index + 1}`}</div>
                 <Image
                   src={step.icon}
                   width={500}
