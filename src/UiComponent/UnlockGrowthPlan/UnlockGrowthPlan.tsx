@@ -1,14 +1,6 @@
 "use client"
 import React, { useState } from "react";
 import styles from "./UnlockGrowthPlan.module.css";
-
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import { Box, TextField } from "@mui/material";
-import ReviewAndEarn from "../ReviewAndEarn/ReviewAndEarn";
-
-
 const UnlockGrowthPlan: React.FC = () => {
   // State to manage which items are expanded
   const [expandedItems, setExpandedItems] = useState<boolean[]>(
