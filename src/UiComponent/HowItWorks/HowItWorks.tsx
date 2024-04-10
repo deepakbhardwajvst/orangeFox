@@ -43,7 +43,8 @@ const stepsData: Step[] = [
         verification.
       </p>
     ),
-    icon: "https://assets-global.website-files.com/60ef088dd8fef919efabb412/63be724e4823669d982f5e6a_Create.svg",
+    
+        icon: "https://assets-global.website-files.com/60ef088dd8fef919efabb412/63be724e4823669d982f5e6a_Create.svg",
   },
 ];
 
